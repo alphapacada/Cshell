@@ -1,0 +1,11 @@
+Syntax :
+
+int rmdir(const char *path);
+
+Returns 0 if success, else non zero.
+
+rmdir  deletes the directory whose path is given by the path. The directory named by the path ,
+
+must be empty
+must not be current working directory
+must not be the root directory.
